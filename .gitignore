@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *.iml
 node_modules
 public
@@ -7,3 +8,17 @@ public
 client/bower_components
 dist
 /server/config/local.env.js
+=======
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+>>>>>>> 2f61ae18caeb6a873cc82b5d338a6de30d89a727
