@@ -1,0 +1,10 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+<div class="container">
+  <div class="row">
+    <ul class="group-list">
+      <li class="list-group-item" ng-repeat="topic in [{name: 'AlgoClub', id: 1}, {name: 'Red-Black Tree'}, {name: 'Agriculture dgondir'}]">
+        <a href="/topic/{{topic.id}}">{{topic.name}}</a>
+      </li>
+    </ul>
+  </div>
+</div>
